@@ -453,8 +453,8 @@
     <element id="Medication.package.batch.extension:MedicationBatchSerialNumber">
       <path value="Medication.package.batch.extension" />
       <sliceName value="MedicationBatchSerialNumber" />
-      <short value="Medication Batch Serial Number" />
-      <definition value="Identifier assigned to a drug at the time of manufacture." />
+      <short value="Identifier assigned to a drug at the time of manufacture" />
+      <definition value="An identifier assigned to a drug at the point of manufacturing and repackaging (at the package or pallet level), sufficient to facilitate the identification, validation, authentication, and tracking and tracking of drugs." />
       <min value="0" />
       <max value="1" />
       <type>
