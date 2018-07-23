@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SOURCE: STU3 http://hl7.org/fhir/condition-acuteappedicitis-example0.xml.html -->
+<Condition xmlns="http://hl7.org/fhir">
+    <id value="condition-acuteappendicitis-example0"/>
+    <text>
+        <status value="generated"/>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>
+                <h3>Heading - if needed</h3>
+                <table>
+                    <tr>
+                        <td><b>Principal diagnosis</b></td>
+                        <td>Acute appendicitis with peritonitis</td>
+                    </tr>
+                    <tr>
+                        <td><b>Reason for presentation</b></td>
+                        <td>Abdominal pain following recent travel to South East Asia</td>
+                    </tr>
+                    <tr>
+                        <td><b>Secondary diagnoses</b></td>
+                        <td>
+                            <p>Digoxin toxicity</p>
+                            <p>Hyperkalaemia</p>
+                            <p>CCF – Congestive cardiac failure</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Complications</b></td>
+                        <td>Nil</td>
+                    </tr>
+                </table>
+            </p>
+        </div>
+    </text>
+
+    <clinicalStatus value="active"/>
+    <verificationStatus value="differential"/>
+    <code>
+        <!--   The problem is accute appendicitis    -->
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="196781001"/>
+            <display value="Acute appendicitis with peritonitis (disorder)"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/example0"/>
+        <display value="Stella Franklin"/>
+    </subject>
+    <assertedDate value="2018-04-04"/>
+    <asserter>
+        <reference value="Practitioner/example0"/>
+    </asserter>
+</Condition>

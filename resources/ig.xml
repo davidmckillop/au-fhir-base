@@ -368,6 +368,14 @@
     </resource>
     <resource>
       <example value="true"/>
+      <name value="Acute Appendicitis with Peritonitis"/>
+      <description value="Shows a patient with the condition of acute appendicitis with peritonitis"/>
+      <sourceReference>
+        <reference value="Condition/acuteappendicitis-example0"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
       <name value="Patient with IHI and Medicare Number"/>
       <description value="Shows a typical patient using identifier profiles for IHI, Medicare Number and the extension for Indigenous Status"/>
       <sourceReference>
