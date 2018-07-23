@@ -396,6 +396,14 @@
     </resource>
     <resource>
       <example value="true"/>
+      <name value="Patient with no birth date, and is eligible for close the gap registration"/>
+      <description value="Shows a patient with the extension for indigenous Status and the extension for Close the Gap Registration, with no birth date."/>
+      <sourceReference>
+        <reference value="Patient/example2"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
       <name value="Practitioner with HPI-I and Prescriber Number"/>
       <description value="Shows a typical practitioner using identifier profiles for HPI-I and Prescriber Number"/>
       <sourceReference>
