@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Condition xmlns="http://hl7.org/fhir">
-    <id value="condition-acuteappendicitis-example0"/>
+    <id value="condition-acuteappendicitis-example0"/>  
+    <text>
+        <div xmlns="http://www.w3.org/1999/xhtml">         
+            <table class="grid">
+                <tr>
+                    <td><b>Principal diagnosis</b></td>
+                    <td>Acute appendicitis with peritonitis</td>
+                </tr>
+                <tr>
+                    <td><b>Reason for presentation</b></td>
+                    <td>Abdominal pain following recent travel to South East Asia</td>
+                </tr>
+                <tr>  
+                    <td><b>Complications</b></td>
+                    <td>Nil</td>
+                </tr>
+            </table>
+        </div>
+    </text>
     <identifier>
         <value value="12345"/>
     </identifier>
     <clinicalStatus value="active"/>
-    <verificationStatus value="confirmed"/>
-    <category>
-        <!--   Abdominal pain is a problem   -->
-        <coding>
-            <system value="http://snomed.info/sct"/>
-            <code value="55607006"/>
-            <display value="Problem"/>
-        </coding>
-        <coding>
-            <system value="http://hl7.org/fhir/condition-category"/>
-            <code value="problem-list-item"/>
-        </coding>
-    </category>
-    <severity>
-        <!--   The abdominal pain  is acute/severe    -->
-        <coding>
-            <system value="http://snomed.info/sct"/>
-            <code value="24484000"/>
-            <display value="Severe"/>
-        </coding>
-    </severity>
+    <verificationStatus value="confirmed"/>   
     <code>
         <!--   The problem is Acute appendicitis with peritonitis   -->
         <coding>
@@ -34,27 +32,12 @@
             <display value="Acute appendicitis with peritonitis"/>
         </coding>
     </code>
-    <bodySite>
-        <!--   Fever applies to whole body   -->
-        <coding>
-            <system value="http://snomed.info/sct"/>
-            <code value="38266002"/>
-            <display value="Appendix structure"/>
-        </coding>
-    </bodySite>
     <subject>
         <!--   It entails patient-example0's problem   -->
         <reference value="Patient/example0"/>
         <display value="Stella Franklin"/>
     </subject>
-    <!--<context> 
-        <reference value="??"/> 
-    </context>-->
     <onsetDateTime value="2018-04-02"/>
-    <assertedDate value="2018-04-04"/>
-    <asserter>
-        <reference value="Practitioner/example0"/>
-    </asserter>
     <evidence>
         <!--   Evidence includes the abdominal pain   -->
         <code>
@@ -65,17 +48,7 @@
             </coding>
         </code>
     </evidence>
-    <evidence>
-        <!--   Evidence includes a CT of the abdomen   -->
-        <code>
-            <coding>
-                <system value="http://snomed.info/sct"/>
-                <code value="169070004"/>
-                <display value="Computed tomography of abdomen"/>
-            </coding>
-        </code>
-    </evidence>
     <note>
-        <text value="The patient has abdominal pain following recent travel to South East Asia."/>
+        <text value="Abdominal pain following recent travel to South East Asia"/>
     </note>
 </Condition>
