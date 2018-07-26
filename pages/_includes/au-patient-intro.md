@@ -27,4 +27,4 @@ Extensions used in this profile:
 
 [Patient with IHI and DVA Number](Patient-example1.html)
 
-[Patient with no birth date, and is eligible for close the gap registration](Patient-example2.html)
+[Patient with no birth date, and eligible for close the gap registration](Patient-example2.html)
