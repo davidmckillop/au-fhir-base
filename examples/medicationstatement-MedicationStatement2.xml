@@ -37,19 +37,16 @@
     <taken value="y"/>   
      
     <dosage>        
-        
         <timing>
             <repeat>
                 <duration value="30"/> 
                 <durationUnit value="min"/>
-                <periodMax value="10"/>
-                <periodUnit value="d"/>
-                <timeOfDay value="10:00"/>
                 <frequency value="1"/>
                 <period value="1"/>
+                <periodMax value="10"/>
                 <periodUnit value="d"/>
+                <timeOfDay value="10:00:00"/>
             </repeat>
         </timing>           
-    
     </dosage>
 </MedicationStatement>

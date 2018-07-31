@@ -607,6 +607,13 @@
     </resource>
     <resource>
       <example value="true"/>
+      <name value="Medication Statement Example Diflucan With Dose, Route and Duration"/>      
+      <sourceReference>
+        <reference value="MedicationStatement/MedicationStatement2"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
       <name value="Medication Example Generic Pack"/>
       <sourceReference>
         <reference value="Medication/GenericPack0"/>
