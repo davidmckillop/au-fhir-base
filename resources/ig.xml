@@ -609,7 +609,7 @@
       <example value="true"/>
       <name value="Medication Statement Example Diflucan With Dose, Route and Duration"/>      
       <sourceReference>
-        <reference value="MedicationStatement/MedicationStatement2"/>
+        <reference value="MedicationStatement/MedicationStatementexample2"/>
       </sourceReference>
     </resource>
     <resource>
